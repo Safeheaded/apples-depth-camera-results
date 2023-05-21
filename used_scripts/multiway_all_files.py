@@ -14,7 +14,7 @@ flip_transform = [[1, 0, 0, 0], [0, -1, 0, 0], [0, 0, -1, 0], [0, 0, 0, 1]]
 
 def load_point_clouds(voxel_size=0.0):
     pcds = []
-    mypath = "./pcds_multiway"
+    mypath = "../data"
     onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
     for path in onlyfiles:
